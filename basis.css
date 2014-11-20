@@ -1,0 +1,163 @@
+* { 
+margin: 30; 
+padding: 0; 
+} 
+
+body { 
+background-color: white; 
+font-family: "helvetica", helvetica; 
+font-size: 100%; 
+color: black; 
+padding-left: 320px;
+} 
+
+#menu2 {
+position:fixed;
+top: 0px;
+left: 20px;
+font-size: 11px;
+width: 300px;
+bottom: 0px;
+background-color: #00FF00;
+}
+
+#navigatie {
+position:fixed;
+width: 260px;
+left: 40px;
+top: 100px;
+}
+
+#kop { 
+width: 900px; 
+height: 74px; 
+margin: 0 auto; 
+background-color: white;
+} 
+
+#kop p { 
+font-family: helvetica, serif; 
+font-size: 40px; 
+font-weight: bold; 
+color: black; 
+padding-left: 20px; 
+padding-top: 16px; 
+} 
+
+#midden { 
+width: 898px; 
+border-left: 0px solid black; 
+border-right: 0px solid black; 
+margin: 0 auto; 
+overflow: hidden; 
+} 
+
+#menu { 
+height: 26px; 
+width: 898px; 
+margin: 0 auto; 
+border: 0px solid black; 
+background-color: #FFFFFF; 
+} 
+
+#menu ul { 
+list-style-type: none; 
+} 
+
+#menu li { 
+float: left; 
+width: 128px; 
+} 
+
+#menu li a { 
+display: block; 
+width: 127px; 
+height: 22px; 
+border-right: 1px solid black; 
+padding-top: 4px; 
+text-align: center; 
+font-size: 14px; 
+text-decoration: underline; 
+text-transform: uppercase; 
+color: #000000; 
+font-weight: bold; 
+} 
+
+#menu li a:hover { 
+background-color: #BDBDBD; 
+} 
+
+#hoofdvak { 
+float: left; 
+width: 610px; 
+padding-left: 18px; 
+padding-right: 18px; 
+padding-top: 28px; 
+background-color: white; 
+padding-bottom: 32000px; 
+margin-bottom: -32000px; 
+} 
+
+#hoofdvak p { 
+font-size: 100%; 
+margin-bottom: 18px; 
+} 
+
+#hoofdvak ul, #hoofdvak ol { 
+font-size: 100%; 
+margin-bottom: 18px; 
+margin-left: 18px; 
+} 
+
+#hoofdvak h1 { 
+font-size: 100%; 
+font-weight: bold; 
+color: #00FF00; 
+margin-bottom: 6px; 
+} 
+
+#hoofdvak h2 { 
+font-size: 100%; 
+font-weight: bold; 
+color: #00FF00; 
+margin-bottom: 6px; 
+} 
+
+#kolomrechts { 
+width: 197px; 
+float: left; 
+border-left: 1px solid black; 
+padding-right: 4px; 
+padding-left: 8px; 
+padding-top: 28px; 
+background-color: white; 
+text-align: center; 
+padding-bottom: 32000px; 
+margin-bottom: -32000px; 
+} 
+
+#kolomrechts p { 
+font-size: 75%; 
+margin-bottom: 24px; 
+} 
+
+#voet { 
+
+padding-left: 300px;
+padding-right: 80px;
+margin-left: 15px;
+height:10px;
+width: 305px;
+bottom: 0px;
+text-align: right;
+font-size: 10px; 
+color: black;
+padding-bottom: 5px;
+padding-right: 10px;
+background-color: #00FF00;
+} 
+
+.nadruk { 
+font-weight: bold; 
+color: maroon; 
+}
